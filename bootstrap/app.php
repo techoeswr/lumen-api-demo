@@ -33,6 +33,7 @@ $app->withEloquent();
 $app->configure('jwt');
 // api
 $app->configure('api');
+$app->configure('view');
 
 /*
 |--------------------------------------------------------------------------
